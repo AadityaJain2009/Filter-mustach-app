@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(176, 246, 255);
+}
+#header{
+    background-color: white;
+    width: 30%;
+}
+.op{
+    width: 50px;
+    height: 50px;
+}
+#hear{
+    height: 50px;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+
+    from{box-shadow: 3px 3px 38px rgb(27, 27, 27)} 
+    to{box-shadow: 3px 3px 100px rgb(114, 109, 109)} 
+}
